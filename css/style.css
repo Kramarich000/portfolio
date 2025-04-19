@@ -85,12 +85,21 @@ body {
     will-change: transform;
     width: 300px;
     border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .list__item:hover {
     transform: scale(1.08) translateY(-30px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     z-index: 9999;
+}
+
+.list__item:hover {
+    transition-delay: 0s;
+}
+
+.list__item:not(:hover) {
+    transition-delay: 0.1s;
 }
 
 .footer {
