@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/SR.jpg" type="image/x-icon">
+    <title>Игра</title>
+    <head>
+        <title>Ралли со стрельбой</title>
+        <link rel="stylesheet" href="styles/style.css" />
+    </head>
+    <script src="transition.js"></script>
+    <body class="body_hclasse">
+
+
+        <div class="road"></div>
+
+        <img class="car" src="img/MyCar.png" />
+
+        <img class="tree tree1" src="img/tree.png" />
+        <img class="tree tree2" src="img/tree.png" />
+        <img class="tree tree3" src="img/tree.png" />
+        <img class="tree tree4" src="img/tree.png" />
+        <img class="tree tree5" src="img/tree.png" />
+        <img class="tree tree6" src="img/tree.png" />
+
+        <img class="enemy enemy1" src="img/EnCar.png" />
+        <img class="enemy enemy2" src="img/EnCar.png" />
+        <img class="enemy enemy3" src="img/EnCar.png" />
+        <img class="coin" src="img/coin.png" />
+        <img class="bullet" src="img/bullet.png">
+        
+        <button type="button" class="game-button">
+            <img class="pause" src="img/pause.png" />
+            <img class="play" src="img/play.png" />
+        </button>
+
+        <div class="game-score">0</div>
+
+        <div class="backdrop">
+            <div class="backdrop-container">
+                <p class="finish-text">Ваш счет: <span class="finish-text-score">0</span></p>
+                <button type="button" class="restart-button">Начать заново</button>
+                <button type="button" class="return-button" onclick="document.location='index.html'">Главное меню</button>
+            </div>
+        </div>
+        <script src="game.js"></script>
+    </body>
+</html>

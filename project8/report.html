@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Генерация отчетов</title>
+</head>
+<body>
+  <h1>Генерация отчета</h1>
+
+  <form id="reportForm">
+    <label for="clientId">Введите ID клиента для отчета о выплатах:</label>
+    <input type="number" id="clientId" name="clientId" required>
+    <button type="submit">Генерировать отчет о выплатах</button>
+  </form>
+
+  <form id="reportForm2">
+    <label for="agentId">Введите ID агента для отчета о полисах:</label>
+    <input type="number" id="agentId" name="agentId" required>
+    <button type="submit">Генерировать отчет по полисам</button>
+  </form>
+
+  <script>
+    document.getElementById('reportForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const clientId = document.getElementById('clientId').value;
+      window.location.href = `http://localhost:3000/report/payouts?clientId=${clientId}`;
+    });
+
+    document.getElementById('reportForm2').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const agentId = document.getElementById('agentId').value;
+      window.location.href = `http://localhost:3000/report/policies?agentId=${agentId}`;
+    });
+  </script>
+</body>
+</html>

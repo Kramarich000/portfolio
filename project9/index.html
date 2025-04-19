@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="icon" href="img/SR.jpg" type="image/x-icon">
+    <title>Главное меню</title>
+</head>
+<script src="transition.js"></script>
+<body class="body_hide">
+    <div class="menu">
+        <div class="name">
+            <h1>Ралли со стрельбой</h1>
+        </div>
+    </div>
+    <div class="menu-buttons">
+        <button type="button" class="play" onclick="document.location='difficulty.html'">
+            <h2>Играть</h2>
+        </button>
+        <button type="button" class="about" onclick="document.location='about.html'">
+            <h2>Об авторе</h2>
+        </button>
+        <button type="button" class="table" onclick="document.location='leaderboard.html'">
+            <h2>Таблица лидеров</h2>
+        </button>
+    </div>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .noclick-button{
+            padding: 100px;
+            font-size: 100px;
+        }
+        img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+
+    <script>
+        var clickCount = 0;
+        function ButtonClick() {
+            clickCount++;
+            if (clickCount === 1) {
+                var imageUrl = 'img/negr.jpg';
+                var imgElement = document.createElement('img');
+                imgElement.src = imageUrl;
+                document.body.appendChild(imgElement);
+            }
+        }
+    </script>
+</body>
+</html>

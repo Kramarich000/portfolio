@@ -1,0 +1,219 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background: #6c7b2a;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+}
+
+.body_hide {
+	opacity: 0;
+	transition: .3s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
+
+.game-score {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: #000000;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 15;
+    font-size: 25px;
+}
+
+img{
+    pointer-events: none;
+}
+
+.car {
+    position: absolute;
+    width: 50px;
+    transform: translateY(75vh);
+}
+
+.road {
+    background: #5e5e5e;
+    width: 700px;
+    height: 100vh;
+}
+
+.tree {
+    position: absolute;
+    z-index: 10;
+    width: 250px;
+}
+
+.tree1 {
+    transform: translate(-450px, -15vh);
+}
+.tree2 {
+    transform: translate(-450px, 25vh);
+}
+.tree3 {
+    transform: translate(-450px, 70vh);
+}
+.tree4 {
+    transform: translate(450px, -5vh);
+}
+.tree5 {
+    transform: translate(450px, 40vh);
+}
+.tree6 {
+    transform: translate(450px, 80vh);
+}
+
+.game-button {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform .3s ease;
+    z-index: 20;
+}
+
+.game-button:hover {
+    transform: scale(1.2);
+}
+
+.game-button img {
+    width: 60px;
+    height: 60px;
+}
+
+.game-button .play {
+    display: none;
+}
+
+.enemy {
+    position: absolute;
+    width: 50px;
+}
+
+.enemy1{
+    transform: translate(50px, -250px);
+}
+
+
+.enemy2{
+    transform: translate(38px, -300px);
+}
+
+
+.enemy3{
+    transform: translate(29px, -350px);
+}
+
+.coin {
+    position: absolute;
+    width: 30px;
+    transform: translate(50px, -200px);
+}
+
+
+.bullet{
+    position: absolute;
+    width: 10px;
+    display: none;
+}
+
+.backdrop {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 50;
+}
+
+.backdrop-container {
+    padding: 13px 8px;
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+.finish-text {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.finish-text::before,
+.finish-text::after {
+    content: '😎';
+    display: block;
+    margin-left: 10px;
+    font-size: 35px;
+    animation: ease .4s jump infinite;
+    animation-direction: alternate;
+}
+
+.finish-text::before {
+    margin-right: 10px;   
+}
+
+
+.finish-text span {
+    margin-left: 10px;
+    color: rgb(142, 12, 83);
+    font-size: 25px;
+}
+
+@keyframes jump {
+    from {
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.restart-button,
+.return-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background: rgb(57, 57, 70);
+    font-size: 20px;
+    padding: 8px 25px;
+    font-family: Helvetica, sans-serif;
+}
+
+.return-button{
+    margin-top: 2px;
+    
+}
+
+.return-button:hover{
+    background: rgb(14, 25, 177);
+    transition: .2s;
+}
+
+
+.restart-button:hover {
+    background: rgb(14, 25, 177);
+    transition: .2s;
+}

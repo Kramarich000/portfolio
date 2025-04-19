@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/SR.jpg" type="image/x-icon">
+    <title>Сложность</title>
+    <link rel="stylesheet" href="styles/difficulty.css">
+</head>
+<script src="transition.js"></script>
+<script src="game.js"></script>
+<body class="body_hide">
+    <nav class="choice">
+        <div class="choice-difficulty">
+            <h1>Выберите сложность</h1>
+            <button class="easy" onclick="startGame('easy')"><h2>Легко</h2></button>
+            <button class="medium" onclick="startGame('medium')"><h2>Средне</h2></button>
+            <button class="hard" onclick="startGame('hard')"><h2>Сложно</h2></button>
+        </div>
+        <button type="button" class="back" onclick="document.location='index.html'"><h2>Назад</h2></button>
+    </nav>
+
+    <script>
+        function startGame(difficulty, speed) {
+            window.location.href = `game.html?difficulty=${difficulty}`;
+        }
+    </script>
+</body>
+</html>

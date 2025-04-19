@@ -1,0 +1,91 @@
+Date : 2025-04-03 00:48:02
+Directory : c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)
+Total : 52 files,  14835 codes, 2774 comments, 2956 blanks, all 20565 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         24 |      6,267 |      1,783 |      1,309 |      9,359 |
+| CSS        |          5 |      5,985 |        410 |      1,353 |      7,748 |
+| HTML       |         12 |      2,341 |        581 |        260 |      3,182 |
+| XML        |          8 |        104 |          0 |          8 |        112 |
+| JSON       |          2 |         81 |          0 |          1 |         82 |
+| Markdown   |          1 |         57 |          0 |         25 |         82 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                                       |         52 |     14,835 |      2,774 |      2,956 |     20,565 |
+| . (Files)                                                                                                                                               |         12 |      2,341 |        581 |        260 |      3,182 |
+| images                                                                                                                                                  |          8 |        104 |          0 |          8 |        112 |
+| script                                                                                                                                                  |         29 |      7,218 |      1,896 |      1,678 |     10,792 |
+| script (Files)                                                                                                                                          |         12 |      2,794 |        520 |        772 |      4,086 |
+| script\malihu-custom-scrollbar-plugin-master                                                                                                            |         17 |      4,424 |      1,376 |        906 |      6,706 |
+| script\malihu-custom-scrollbar-plugin-master (Files)                                                                                                    |          7 |      2,583 |        702 |        611 |      3,896 |
+| script\malihu-custom-scrollbar-plugin-master\js                                                                                                         |         10 |      1,841 |        674 |        295 |      2,810 |
+| script\malihu-custom-scrollbar-plugin-master\js\minified                                                                                                |          7 |         15 |         27 |          4 |         46 |
+| script\malihu-custom-scrollbar-plugin-master\js\uncompressed                                                                                            |          3 |      1,826 |        647 |        291 |      2,764 |
+| style                                                                                                                                                   |          3 |      5,172 |        297 |      1,010 |      6,479 |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                                                | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\about.html                                                                              | HTML       |        171 |        102 |         13 |        286 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\account.html                                                                            | HTML       |        245 |         78 |         17 |        340 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\agent-account.html                                                                      | HTML       |        242 |         78 |         19 |        339 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\caseCreation.html                                                                       | HTML       |        294 |         24 |         54 |        372 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\editProfile.html                                                                        | HTML       |        144 |          5 |          9 |        158 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\images\appstore.svg                                                                     | XML        |         22 |          0 |          1 |         23 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\images\googleplay.svg                                                                   | XML        |         52 |          0 |          1 |         53 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\images\logo.svg                                                                         | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\images\play-button.svg                                                                  | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\images\why-lease-1.svg                                                                  | XML        |         11 |          0 |          1 |         12 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\images\why-lease-2.svg                                                                  | XML        |          5 |          0 |          1 |          6 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\images\why-lease-3.svg                                                                  | XML        |          4 |          0 |          1 |          5 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\images\why-lease-4.svg                                                                  | XML        |          4 |          0 |          1 |          5 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\index.html                                                                              | HTML       |        240 |         84 |         16 |        340 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\payout.html                                                                             | HTML       |        216 |         24 |         36 |        276 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\policyCreation.html                                                                     | HTML       |        220 |         24 |         35 |        279 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\privacyPolicy.html                                                                      | HTML       |        171 |         78 |         21 |        270 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\register.html                                                                           | HTML       |        193 |          6 |         18 |        217 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\report.html                                                                             | HTML       |         33 |          0 |          5 |         38 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\about.js                                                                         | JavaScript |        126 |          0 |         33 |        159 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\account.js                                                                       | JavaScript |        816 |        140 |        223 |      1,179 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\agent-account.js                                                                 | JavaScript |        408 |         78 |        118 |        604 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\agent-auth-check.js                                                              | JavaScript |         24 |          1 |          4 |         29 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\caseCreation.js                                                                  | JavaScript |        206 |          4 |         48 |        258 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\client-auth-check.js                                                             | JavaScript |         24 |          1 |          4 |         29 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\editProfile.js                                                                   | JavaScript |        214 |         10 |         64 |        288 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\bower.json                                 | JSON       |         44 |          0 |          1 |         45 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\jquery.mCustomScrollbar.concat.min.js      | JavaScript |          3 |          2 |          0 |          5 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\jquery.mCustomScrollbar.css                | CSS        |        812 |        113 |        343 |      1,268 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\jquery.mCustomScrollbar.js                 | JavaScript |      1,629 |        587 |        242 |      2,458 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\jquery.mCustomScrollbar.min.css            | CSS        |          1 |          0 |          0 |          1 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\js\minified\jquery-1.11.0.min.js           | JavaScript |          3 |          1 |          1 |          5 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\js\minified\jquery-1.9.1.min.js            | JavaScript |          3 |          2 |          0 |          5 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\js\minified\jquery-2.1.0.min.js            | JavaScript |          3 |          1 |          1 |          5 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\js\minified\jquery-ui-1.10.4.min.js        | JavaScript |          2 |          4 |          1 |          7 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\js\minified\jquery.mCustomScrollbar.min.js | JavaScript |          2 |          1 |          0 |          3 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\js\minified\jquery.mousewheel-3.0.6.min.js | JavaScript |          1 |         11 |          1 |         13 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\js\minified\jquery.mousewheel.min.js       | JavaScript |          1 |          7 |          0 |          8 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\js\uncompressed\jquery.mCustomScrollbar.js | JavaScript |      1,629 |        587 |        242 |      2,458 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\js\uncompressed\jquery.mousewheel-3.0.6.js | JavaScript |         52 |         16 |         16 |         84 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\js\uncompressed\jquery.mousewheel.js       | JavaScript |        145 |         44 |         33 |        222 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\package.json                               | JSON       |         37 |          0 |          0 |         37 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\malihu-custom-scrollbar-plugin-master\readme.md                                  | Markdown   |         57 |          0 |         25 |         82 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\map.js                                                                           | JavaScript |        129 |        180 |         54 |        363 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\policyCreation.js                                                                | JavaScript |        217 |          6 |         57 |        280 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\register.js                                                                      | JavaScript |        387 |         31 |         94 |        512 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\script.js                                                                        | JavaScript |        238 |         69 |         73 |        380 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\script\transition.js                                                                    | JavaScript |          5 |          0 |          0 |          5 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\style\agent.css                                                                         | CSS        |      2,526 |        150 |        493 |      3,169 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\style\reset.css                                                                         | CSS        |         78 |          3 |         13 |         94 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\style\style.css                                                                         | CSS        |      2,568 |        144 |        504 |      3,216 |
+| c:\Users\karen\OneDrive\Рабочий стол\врстк\Курсовя работа (Веб)\termsOfService.html                                                                     | HTML       |        172 |         78 |         17 |        267 |
+| Total                                                                                                                                                   |            |     14,835 |      2,774 |      2,956 |     20,565 |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

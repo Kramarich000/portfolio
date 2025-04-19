@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to left, #650000, #00055a);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    height: 100%; 
+}
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto; 
+    text-align: center;
+    padding: 0 5px;
+}
+
+.menu__link {
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: background-color .2s, color .2s;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__link:hover {
+    background-color: #ffffff;
+    color: #131313;
+}
+
+.menu__list{
+    padding: 0;
+}
+
+
+.sticky{
+    top: 0;
+    position: sticky;
+}
+
+h1 {
+    margin-top: 45px;
+    font-size: 36px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+.movies {
+    padding: 20px; 
+    color: #ffffff;
+}
+
+.movie {
+    padding: 20px;
+    margin-top: 25px;
+    max-width: 1100px;
+}
+
+.movie img{
+    width: 300px;
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.show-image-checkbox {
+    display: none;
+}
+
+#imageContainer {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #131313ba; 
+    text-align: center;
+}
+
+#showImage:checked + #imageContainer {
+    display: block;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ffffff;
+    background-color: #131313;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color .3s, background-color .3s;
+}
+
+.close-button:hover {
+    background-color: #ffffff;
+    color: #131313;
+}
+
+#imageContainer img {
+    max-height: 96%;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+}
+
+.sxema{
+    cursor: pointer;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: #ffffff;
+}
+
+.footer__link{
+    text-decoration: underline;
+}
+
+.footer__social-link {
+    margin-left: 50px;
+}
+
+.footer__contacts-link{
+    display: flex;
+    align-items: center;
+}
+
+.footer__contacts-link{
+    margin-top: 10px;
+}
+
+.footer__contacts-img{
+    margin-right: 10px;
+}

@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background: #292b33;
+    overflow: hidden;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+
+#leaderboardList {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.leaderboard-table th, .leaderboard-table td {
+    border: 1px solid rgba(199, 35, 35, 0.432);;
+    font-size: 15px;
+    padding: 8px;
+    text-align: left;
+    width: 110px;
+}
+
+.leaderboard-table th {
+    background-color: #f2f2f2;
+}
+  
+h2 {
+    font-size: 20px;
+    color: rgb(187, 187, 187);
+}
+
+ul{
+    padding: 0;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: #0000002f;
+}
+
+h1{
+    text-align: center;
+    color: rgb(187, 187, 187);
+}
+
+td{
+    background: #292b33;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+}
+
+.leaderboard-table th{
+    background-color: rgba(199, 35, 35, 0.432);
+    color: #ffffff;
+}
+
+#clearLeaderboard{
+    background-color: rgba(199, 35, 35, 0.432);
+    padding: 15px;
+    height: 86px;
+    width: 600px;
+    border: none;
+    border-radius: 20px;
+    transition: .2s;
+    font-size: 20px;
+    color: rgb(187, 187, 187);
+    position: absolute;
+    left: 30vh;
+    top: 90vh;
+    transition: transform 0.3s;
+}
+
+#clearLeaderboard:hover{
+    cursor: pointer;
+    background: rgb(14, 25, 177);
+    box-shadow: 0 0 50px blue;
+    text-shadow: 5px 5px 6px #000;
+    transform: scale(1.1);
+}
+
+
+.back{
+    background-color: rgba(199, 35, 35, 0.432);
+    padding: 15px;
+    width: 600px;
+    border: none;
+    border-radius: 20px;
+    transition: .2s;
+    font-size: 20px;
+    color: rgb(187, 187, 187);
+    position: absolute;
+    left: 115vh;
+    top: 90vh;
+    transition: transform 0.3s;
+}
+
+.back:hover{
+    cursor: pointer;
+    background: rgb(14, 25, 177);
+    box-shadow: 0 0 50px blue;
+    text-shadow: 5px 5px 6px #000;
+    transform: scale(1.1);
+}
